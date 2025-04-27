@@ -26,7 +26,11 @@ int main () {
     printf ("População: %d mil \n", populacao);
     printf ("Área: %.2f km² \n", area);
     printf ("PIB: %.2f milhões \n", PIB);
-    printf ("Quantidade Pontos Turísticos: %d \n", pontosTuristicos); 
+    printf ("Quantidade Pontos Turísticos: %d \n", pontosTuristicos);
+
+   //calculo populacional e PIB usando divisao
+    printf ("Densidade Populacional: %.2f km² \n", populacao / area);
+    printf ("PIB per Capita: %.2f reais \n", PIB / populacao);
 
 
 
@@ -57,6 +61,10 @@ int main () {
     printf ("Área: %.2f km² \n", Area);
     printf ("PIB: %.2f milhões \n", PiB);
     printf ("Quantidade de Pontos Turísticos: %d", PontosTuristicos);
+   
+
+    printf ("Densidade Populacional: %.2f km² \n", Populacao / Area);
+    printf ("PIB per Capita: %.2f reais \n", PiB / Populacao);
   
 
     return 0;
