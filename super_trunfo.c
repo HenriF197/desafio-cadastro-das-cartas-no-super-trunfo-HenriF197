@@ -67,8 +67,12 @@ int main () {
     printf ("PIB per Capta: %.2f reais \n", PiB / Populacao);
   
 
-   
- return 0;
+   printf ("Super Poder: %.2f /n", (populacao / area) + ( PiB / populacao));
+ 
+
+
+
+return 0;
 
     
 
