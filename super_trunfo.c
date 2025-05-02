@@ -30,7 +30,7 @@ int main () {
 
    //calculo populacional e PIB usando divisao
     printf ("Densidade Populacional: %.2f km² \n", populacao / area);
-    printf ("PIB per Capita: %.2f reais \n", PIB / populacao);
+    printf ("PIB per Capta: %.2f reais \n", PIB / populacao);
 
 
 
@@ -64,7 +64,7 @@ int main () {
    
 
     printf ("Densidade Populacional: %.2f km² \n", Populacao / Area);
-    printf ("PIB per Capita: %.2f reais \n", PiB / Populacao);
+    printf ("PIB per Capta: %.2f reais \n", PiB / Populacao);
   
 
    
